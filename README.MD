@@ -1,6 +1,8 @@
 These executables have been build using https://github.com/m-ab-s/media-autobuild_suite/commit/4576d38fce87768a900a571af284963b622198b7
 
-This is an attempt to distribute the executables for use with my own application, and so was really only build to encode webms with AV1 (using libsvtav1svt-av1) and opus (using libopus). Most other usecases are not used or tested.
+This is an attempt to distribute FFMmpeg and encoder executables for use with my own application.
+
+This was built for encoding webms with AV1 (using libsvtav1svt-av1) and opus (using libopus). Most other usecases are not used or tested.
 
 There are numerous executables unmodified from the source in this repo (except via patches from the media-autobuild_suite), and I have made an attempt to properly attribute each of the owners and reference the specific commit of the source being used.
 
