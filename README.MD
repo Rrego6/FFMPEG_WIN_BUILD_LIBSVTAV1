@@ -1,0 +1,221 @@
+These executables have been build using https://github.com/m-ab-s/media-autobuild_suite/commit/4576d38fce87768a900a571af284963b622198b7
+
+This is an attempt to distribute the executables for use with my own application, and so was really only build to encode webms with AV1 (using libsvtav1svt-av1) and opus (using libopus). Most other usecases are not used or tested.
+
+There are numerous executables unmodified from the source in this repo (except via patches from the media-autobuild_suite), and I have made an attempt to properly attribute each of the owners and reference the specific commit of the source being used.
+
+Please let me know if any attribution is missed or if attribution can be better done.
+
+- AMF-git/:
+  - https://github.com/GPUOpen-LibrariesAndSDKs/AMF.git
+  - 9f558757af85029541110139586c35f8d4c6b2ad
+- AviSynthPlus-git/:
+  - https://github.com/AviSynth/AviSynthPlus.git
+  - f26fab3120a71c712238d6ec2f5469db65cc24a3
+- OpenCL-Headers-git/:
+  - https://github.com/KhronosGroup/OpenCL-Headers.git
+  - 5e2f8c66476bcf60eb8c2921807e34efb30294ee
+- SDL-git/:
+  - https://github.com/libsdl-org/SDL.git
+  - d71df6448b04d756555d9d9d285ba4c36b7e9f61
+- SPIRV-Cross-git/:
+  - https://github.com/KhronosGroup/SPIRV-Cross.git
+  - 81ba8f78f6646e5635129bd738f25bb3f43bbdb9
+- SVT-AV1-git/:
+  - https://gitlab.com/AOMediaCodec/SVT-AV1.git
+  - f39cf3b265eacc74d3e0b7a2d3c84da75ae77097
+- SVT-HEVC-git/:
+  - https://github.com/OpenVisualCloud/SVT-HEVC.git
+  - b62f72e752243cee4104cfb41dc7ee409d3ac3e9
+- SVT-VP9-git/:
+  - https://github.com/OpenVisualCloud/SVT-VP9.git
+  - 1b08a141204b500e64458c1a92f95b3898013674
+- aom-git/:
+  - https://aomedia.googlesource.com/aom
+  - cb8163144c5da38a6212745946ac4db0b7ea7fbb
+- aribb24-git/:
+  - https://github.com/nkoriyama/aribb24.git
+  - 5e9be272f96e00f15a2f3c5f8ba7e124862aec38
+- bin-fdk-aac-git/:
+  - https://github.com/nu774/fdkaac
+  - 03c3c60191682177426213adb5d6643e05e82bd4
+- cargo-c-git/:
+  - https://github.com/lu-zero/cargo-c.git
+  - f00bc1bd8ddf683a8decf414f1a0534253662786
+- codec2-git/:
+  - https://github.com/drowe67/codec2.git
+  - edcb16c7340d47444c3c7b332e7bbc9053b48cd6
+- dav1d-git/:
+  - https://code.videolan.org/videolan/dav1d.git
+  - 345127a79532a679de025b031bdbc264df5f17ea
+- davs2-git/:
+  - https://github.com/pkuvcl/davs2.git
+  - b41cf117452e2d73d827f02d3e30aa20f1c721ac
+- decklink-headers-git/:
+  - https://gitlab.com/m-ab-s/decklink-headers.git
+  - 8d0c3893e4505b6d20d4c60fea80dd22f62157a3
+- dlfcn-win32-git/:
+  - https://github.com/dlfcn-win32/dlfcn-win32.git
+  - 9d0ef119d9fcb9139f831adc224857b791c81140
+- fdk-aac-git/:
+  - https://github.com/mstorsjo/fdk-aac
+  - 3f864cce9736cc8e9312835465fae18428d76295
+- ffmpeg-git/:
+  - https://git.ffmpeg.org/ffmpeg.git
+  - 179830108dbeb1c6b73105ae2234cf04874728b4
+- ffnvcodec-git/:
+  - https://git.videolan.org/git/ffmpeg/nv-codec-headers.git
+  - 3ed7c9a0a2c0b698b83088e13008f3ec983219b2
+- flite-git/:
+  - https://github.com/festvox/flite.git
+  - 6c9f20dc915b17f5619340069889db0aa007fcdc
+- fontconfig-git/:
+  - https://github.com/freedesktop/fontconfig.git
+  - 911b19f19f1334d51c452756f9ce222c1101097b
+- freeglut-git/:
+  - https://github.com/dcnieho/FreeGLUT.git
+  - 3022a6c04a2756edc74c8d41e5ba64e547db65f6
+- freetype-git/:
+  - https://github.com/freetype/freetype.git
+  - e8ebfe988b5f57bfb9a3ecb13c70d9791bce9ecf
+- frei0r-git/:
+  - https://github.com/dyne/frei0r.git
+  - a9d15ff07e130baf3408da6e1f1b22f82e7c62b6
+- fribidi-git/:
+  - https://github.com/fribidi/fribidi.git
+  - a6a4defff24aabf9195f462f9a7736f3d9e9c120
+- gflags-git/:
+  - https://github.com/gflags/gflags.git
+  - a738fdf9338412f83ab3f26f31ac11ed3f3ec4bd
+- glslang-git/:
+  - https://github.com/KhronosGroup/glslang.git
+  - 8ba94fc9dee702f6bd7f0fdade66034e06120143
+- harfbuzz-git/:
+  - https://github.com/harfbuzz/harfbuzz.git
+  - d5829b3ce2a3a989f7f69e5184b7802e71402cf8
+- highway-git/:
+  - https://github.com/google/highway.git
+  - fad06eb9cb5cb3add4d91408ccc2146483503047
+- kvazaar-git/:
+  - https://github.com/ultravideo/kvazaar.git
+  - d6032feab140a294cb72da708ea19c05a27d77d0
+- leptonica-git/:
+  - https://github.com/DanBloomberg/leptonica.git
+  - a30a312db9a41b316a1421d4b0b1e5102bed4a33
+- libaacs-git/:
+  - https://code.videolan.org/videolan/libaacs.git
+  - 37b8a4807aedf7ff86751d2c4d9a68efdc665d2f
+- libass-git/:
+  - https://github.com/libass/libass.git
+  - 5f57443f1784434fe8961275da08be6d6febc688
+- libbdplus-git/:
+  - https://code.videolan.org/videolan/libbdplus.git
+  - 98a4ba1104068f7be383a141a38465b0dca61e5b
+- libbluray-git/:
+  - https://code.videolan.org/videolan/libbluray.git
+  - f66370cb05af1f21bafe8e20bc360a431f3e8f80
+- libilbc-git/:
+  - https://github.com/TimothyGu/libilbc.git
+  - 6adb26d4a4e159cd66d4b4c5e411cd3de0ab6b5e
+- libjxl-git/:
+  - https://github.com/libjxl/libjxl.git
+  - 7ec3aa41f699445f57c3703985e3aadb26dc35b0
+- liblsmash-git/:
+  - https://github.com/l-smash/l-smash.git
+  - 18a9ed25c7ff79a7f4f4bf850c345c72179b8998
+- libmfx-git/:
+  - https://github.com/lu-zero/mfx_dispatch.git
+  - 7e4d221c36c630c1250b23a5dfa15657bc04c10c
+- libmysofa-git/:
+  - https://github.com/hoene/libmysofa.git
+  - 9c419b6adf3737ffc33ba894e1017335aa6b9998
+- libopusenc-git/:
+  - https://github.com/xiph/libopusenc.git
+  - f51c3aa431c2f0f8fccd8926628b5f330292489f
+- libplacebo-git/:
+  - https://code.videolan.org/videolan/libplacebo.git
+  - 14cb3ddf74512ce5a4d2f1cedcab4e1805d8a730
+- libpng-git/:
+  - https://github.com/glennrp/libpng.git
+  - 12222e6fbdc90523be77633ed430144cfee22772
+- librist-git/:
+  - https://code.videolan.org/rist/librist.git
+  - 809390b3b75a259a704079d0fb4d8f1b5f7fa956
+- librtmp-git/:
+  - https://gitlab.com/m-ab-s/rtmpdump.git
+  - 922b131809d330f2f0f34a009d66c747fe2df3b1
+- libsoxr-git/:
+  - https://gitlab.com/m-ab-s/libsoxr.git
+  - 945b592b70470e29f917f4de89b4281fbbd540c0
+- libtiff-git/:
+  - https://gitlab.com/libtiff/libtiff.git
+  - 4c3ddd99b6efbdca9d0f2e91a53671edb0656fd7
+- libwebp-git/:
+  - https://chromium.googlesource.com/webm/libwebp
+  - e68765af4256287b55334c362fcf0f177f4bbb7c
+- libxml2-git/:
+  - https://gitlab.gnome.org/GNOME/libxml2.git
+  - e2bae1bc049f7ffac9c35eefa33f8a00d4032170
+- openal-soft-git/:
+  - https://github.com/kcat/openal-soft.git
+  - b5e9d7817a4237259cfda45c263a16b012513903
+- openmpt-git/:
+  - https://github.com/OpenMPT/openmpt.git
+  - 99ddfba37d99a79763a7abb04fb90e37ca5ca60f
+- opus-git/:
+  - https://github.com/xiph/opus.git
+  - bce1f392353d72d77d543bb2069a044ae1045e9d
+- opus-tools-git/:
+  - https://github.com/xiph/opus-tools.git
+  - ecd50e531fbf378499a3f71cdca05ad969c2e29f
+- opusfile-git/:
+  - https://github.com/xiph/opusfile.git
+  - 0a4cd796df5b030cb866f3f4a5e41a4b92caddf5
+- rav1e-git/:
+  - https://github.com/xiph/rav1e.git
+  - a3f0e1872fbae6b024756c1120624a1f7e16da1f
+- rubberband-git/:
+  - https://github.com/m-ab-s/rubberband.git
+  - 6c80b8d44f0ca7b85d91ae05ea48871de1fd1b2d
+- speex-git/:
+  - https://github.com/xiph/speex.git
+  - 5b036b2ca5e27004502e67ee20490a16f5e68aa1
+- srt-git/:
+  - https://github.com/Haivision/srt.git
+  - 0bc3b03202b3159fc9b085b3ae6d66ec071c25d6
+- tesseract-git/:
+  - https://github.com/tesseract-ocr/tesseract.git
+  - aee19fcf8eb832bb9b6a67ada671d3e7679abeac
+- uavs3d-git/:
+  - https://github.com/uavs3/uavs3d.git
+  - 0133ee4b4bbbef7b88802e7ad019b14b9b852c2b
+- vidstab-git/:
+  - https://github.com/georgmartius/vid.stab.git
+  - 90c76aca2cb06c3ff6f7476a7cd6851b39436656
+- vmaf-git/:
+  - https://github.com/Netflix/vmaf.git
+  - 06d43574a0e6724ef564a46fc89d709c165a20fb
+- vorbis-tools-git/:
+  - https://github.com/xiph/vorbis-tools.git
+  - 71687237c07cd9d5564c73990d0de45520c5bec1
+- vpx-git/:
+  - https://chromium.googlesource.com/webm/libvpx
+  - 381a8c9e01e63d8a88dd655551c3e6f4a88993e1
+- vulkan-loader-git/:
+  - https://github.com/KhronosGroup/Vulkan-Loader.git
+  - f755a87bf8ee8c83311f478c9d3a5a404697e886
+- x264-git/:
+  - https://code.videolan.org/videolan/x264.git
+  - e067ab0b530395f90b578f6d05ab0a225e2efdf9
+- xavs-git/:
+  - https://github.com/Distrotech/xavs.git
+  - 8300fbf4918bca2af1af2aee6a337815e90b51e1
+- xavs2-git/:
+  - https://github.com/pkuvcl/xavs2.git
+  - eae1e8b9d12468059bdd7dee893508e470fa83d8
+- xvid-git/:
+  - https://github.com/m-ab-s/xvid.git
+  - 4f02ef0c83387cf030b236114c44af10fd9cd661
+- zimg-git/:
+  - https://github.com/sekrit-twc/zimg.git
+  - fc993b40effd6536518444fcbd435b825b30ca73
